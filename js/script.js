@@ -7,6 +7,7 @@ let criaMosquitoTempo = 1500
 let nivel = window.location.search
 nivel = nivel.replace('?', '')
 
+//definindo dificuldade
 if (nivel === 'normal') {
     criaMosquitoTempo = 1500
 } else if (nivel === 'dificil') {
@@ -15,6 +16,7 @@ if (nivel === 'normal') {
     criaMosquitoTempo = 750
 }
 
+//tamanho da tela
 function ajustarTamanho() {
     alt = window.innerHeight
     lar = window.innerWidth
@@ -71,6 +73,7 @@ function posicaoRandom() {
     document.body.appendChild(mosquito)
 }
 
+//mudando tamanho de mosquito
 function tamanhoRandom() {
     let classe = Math.floor(Math.random() *3)
     
@@ -84,6 +87,7 @@ function tamanhoRandom() {
     }
 }
 
+//mudando posição de mosquito
 function ladoAleatorio() {
     let classe = Math.floor(Math.random() *2)
     
