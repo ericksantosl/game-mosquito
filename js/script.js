@@ -56,7 +56,7 @@ function posicaoRandom() {
     posX = posX < 0 ? 0 : posX
     posY = posY < 0 ? 0 : posY
 
-    console.log(posX, posY)
+    //console.log(posX, posY)
 
     //criando o elemento no html
     let mosquito = document.createElement('img')

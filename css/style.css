@@ -3,9 +3,12 @@ html {
 }
 
 body {
-    background-image: url(../imgs/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('../imgs/bg.jpg') no-repeat center center fixed;
+  background-size: cover; /* Faz a imagem ocupar toda a tela */
+  height: 100vh;          /* Garante que sempre preencha a altura da tela */
+  width: 100vw;           /* Garante que sempre preencha a largura da tela */
 }
 
 .mosquito1 {
